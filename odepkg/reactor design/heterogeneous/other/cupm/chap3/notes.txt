@@ -1,0 +1,41 @@
+Here are some supplemental notes for Chapter 3.  Note, in particular, the use of
+pde_1a.m, pde_1b.m, pde_1c.m, pde_1d.m.
+
+pde_1_main.m      atg model in spherical coordinates; constant diffusivity for Nn, Nt;
+pde_1a.m          0 le r le 0.5 cm; initial tumor outer boundary at r = 0.1 cm using
+inital_1.m        grid point 21 in 101; parameters are the same as from Gatenby; 
+jpattern_num_1.m  ICs in Nn_1.m, Nt_1.m, Ch_1.m set with tanh; pde_1a.m renamed to 
+Nn_1.m            pde_1.m for use by ode15s; Dn, Dt constant; Nn_1.m, Nt_1.m, Ch_1.m  
+Nt_1.m            are IC functions.
+Ch_1.m   
+                  ncase=3: fig3p1.eps (figure(1) in pde_1_main.m))
+                           fig3p2.eps (figure(2))
+                           fig3p3.eps (figure(3))
+                           fig3p4.eps (figure(4))
+                           fig3p5.eps (figure(5))
+                           fig3p6.eps (figure(8))
+
+pde_1_main.m      pde_1a.m with variable diffusivity (D) for Nt (only change); D 
+pde_1b.m          constrained to nonegative values; without constraint, ODE integration
+inital_1.m        fails; pde_1b.m renamed to pde_1.m for use by ode15s; variable
+jpattern_num_1.m  D programmed as
+Nn_1.m              D=Dt*(1-Nn(i)/Kn);
+Nt_1.m              if(D<0)D=0;end
+Ch_1.m            Nn_1.m, Nt_1.m, Ch_1.m are IC functions; 2D plots for ncase = 1; 3D plots 
+                  for ncase = 2; pde_1b.m renamed to pde_1.m for use by ode15s.
+
+pde_1_main.m      pde_1b.m with additional plotting of PDE RHS terms; the ODE routine,
+pde_1c.m          pde_1c.m has a second return argument array, term, that is then used
+inital_1.m        at the end of pde_1_main.m in Listing 3.4; pde_1c.m not renamed to pde_1.m 
+jpattern_num_1.m  for use by ode15s with ncase = 3; Nn_1.m, Nt_1.m, Ch_1.m are IC functions;
+Nn_1.m            total of 21 plots (4 for ncase = 1, 17 for ncase = 3). 
+Nt_1.m            
+Ch_1.m
+
+pde_1_main.m      pde_1b.m with diffusion added to Nn balance; pde_1d.m renamed to pde_1.m for
+pde_1d.m          use by ode15s; Nn_1.m, Nt_1.m, Ch_1.m are IC functions.
+inital_1.m        
+jpattern_num_1.m    
+Nn_1.m           
+Nt_1.m            
+Ch_1.m 

@@ -1,0 +1,19 @@
+Here are some supplemental notes for Chapter 2.  
+
+Two main programs are provided:
+
+pde_1_main.m      Main program in Chapter 2 as discussed with Listing 2.2
+
+pde_1a_main.m     pde_1_main.m with additional composite plots as discussed with
+                  Listing 2.2a 
+
+pde_1.m           Execution of either main program with mf=1 calls this ODE
+                  routine (from ode15s)
+
+pde_2.m           Execution of either main program with mf=2 calls this ODE
+                  routine (from ode15s)
+
+pde_3.m           Execution of either main program with mf=3 calls this ODE
+                  routine (from ode15s)
+
+

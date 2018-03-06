@@ -1,0 +1,59 @@
+Here are some supplemental notes for Chapter 1.  
+
+The Matlab routines are placed in folders named according to the
+listings in Chapter 1.  Thus, for example, the routines in Listings
+1.1 to 1.5 in Chapter 1 are in folder listing-1p1-1p5.  The folders
+for all of the listings in Chapter 1 (Listing 1.1 to Listing 1.25) 
+are: 
+
+  listing-1p1-1p5
+
+  listing-1p6-1p8
+
+  listing-1p9-1p13
+
+  listing-1p14
+
+  listing-1p15-1p18
+
+  listing-1p19-1p20
+
+  listing-1p21-1p22
+
+  listing-1p23-1p24
+
+  listing-1p25
+
+This set of listings was used because of the repeated use of file names.
+For example, the several main programs in Chapter 1 are each named 
+pde_1_main.m and the ODE routines these main programs call are named 
+pde_1.m.  
+
+The set of files in each folder should be self contained.  For example, 
+the main program in folder listing-1p1-1p5 (pde_1_main.m) executes with 
+the four subordinate routines in this folder, that is, pde_1.m, euler.m, 
+meuler.m, rk4.m (and these five routines appear in Listing 1.1 to Listing 
+1.5 in Chapter 1).
+
+With this arrangement (the folder names linked directly to the Chapter 1
+listing names) means that an extensive set of files has been placed in 
+folders for the entire book.  If we have overlooked any files, which would 
+become clear when the main programs are executed, please let us know and we 
+will provide the missing files (routines).  We would also welcome knowing 
+about your experiences in using the files.
+
+Finally, each chapter folder generally includes a file named notes.txt 
+with additional information about the files in the chapter folders.  A 
+good starting point in using the files in a particular folder would be to 
+first read notes.txt.  If a particular chapter folder does not have a file 
+notes.txt, this means that additional information was not considered necessary, 
+and the main programs (pde_1_main.m) should execute by entering pde_1_main 
+(with no .m) at the Matlab prompt.  Matlab generally produces good error 
+messages, including the names of any missing subordinate routines.
+
+  W. E. Schiesser
+  wes1@lehigh.edu
+
+
+
+

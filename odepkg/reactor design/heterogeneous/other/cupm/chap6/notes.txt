@@ -1,0 +1,13 @@
+Here are some supplemental notes for Chapter 6.  
+
+Two main programs are provided in listing-6p1-6p3:
+
+pde_1_main.m      Main program in Chapter 6 as discussed with Listing 6.1
+
+pde_1a_main.m     pde_1_main.m with additional coding to calculate the front
+                  velocity in Listing 6.3 
+
+pde_1.m           ODE routine in Listing 6.2 (called by both main programs)
+
+
+

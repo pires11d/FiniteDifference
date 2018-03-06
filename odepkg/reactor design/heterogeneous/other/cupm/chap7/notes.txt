@@ -1,0 +1,17 @@
+Here are some supplemental notes for Chapter 7.  
+
+pde_1_main.m      Main program in Chapter 7 as discussed with Listing 7.1
+
+pde_1.m           Execution of the main program with mf=1 calls this ODE
+                  routine (from ode15s)
+
+pde_2.m           Execution of the main program with mf=2 calls this ODE
+                  routine (from ode15s)
+
+pde_3.m           Execution of the main program with mf=3 calls this ODE
+                  routine (from ode15s)
+
+pde_4.m           Execution of the main program with mf=4 calls this ODE
+                  routine (from ode15s)
+
+

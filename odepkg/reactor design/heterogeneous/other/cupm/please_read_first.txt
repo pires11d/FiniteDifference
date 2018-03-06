@@ -1,0 +1,41 @@
+             Partial Differential Equation Analysis
+                    in Biomedical Engineering
+
+              Software (Matlab routines) download
+
+The files (Matlab routines) for the book Partial Differential Equation
+Analysis in Biomedical Engineering (PDE/BME) are organized by chapter 
+folders.  The chapter titles are:
+
+  1  Introduction to Partial Differential Equation
+     Integration in Space and Time
+
+  2  Antibody Binding Kinetics
+
+  3  Acid-mediated Tumor Growth
+
+  4  Retinal Oxygen Transport
+
+  5  Hemodialyzer Dynamics
+
+  6  Epidermal Wound Healing
+
+  7  Drug Distribution from a Polymer Matrix
+
+Within each chapter folder, subfolders are provided according to the 
+numbers of the listings of the routines in the book.  This is explained 
+in file notes.txt in folder chap1.  Please read this file (notes.txt) 
+first.  Since Chapter 1 has the largest number of subfolders and files, 
+the use of the files in Chapters 2-7 should be straightforward. 
+
+If you acquire the book and/or download the software, please inform us
+by sending your name, affiliation (e.g., university, company, laboratory)
+and e-mail address.  In this way, we can inform you of new BME applications
+that we are developing.  This information will remain confidential with us.
+
+We hope you find the book and software interesting and useful.  If you have 
+any questions, please direct them to W. E. Schiesser at wes1@lehigh.edu.  In
+particular, we would like to know if any files (routines) have been omitted
+from this download site.
+
+Best wishes for your PDE/BME analysis.
